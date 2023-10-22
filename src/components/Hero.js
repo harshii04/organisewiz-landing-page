@@ -18,7 +18,7 @@ const Hero = () => {
         <div>
           <Image src={HeroImg} alt="Hero image" draggable={false} />
         </div>
-        <div className="pt-8">
+        <div className="pt-8 md:pl-14">
           <div>
             <div className=" flex gap-2 w-fit rounded-full items-center justify-center px-2 py-[6px] -bg--highlight-purple stroke -stroke--stroke-purple stroke">
               <PuzzlePiece
