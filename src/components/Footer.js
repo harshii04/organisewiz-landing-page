@@ -16,10 +16,10 @@ const Footer = () => {
           <Image
             src={FooterIMG}
             alt="Footer Abstract pattern"
-            className="h-fit"
+            className="select-none"
             draggable={false}
           />
-          <p className="font-medium text-xs -text--icon-white">
+          <p className="font-medium text-xs -text--icon-white select-none">
             Crafted by{" "}
             <Link
               className="hover:underline transition-all duration-300 ease-in-out"

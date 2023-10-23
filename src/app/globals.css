@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 
+
+html{scroll-behavior: smooth;}
+
+::selection{
+  background: rgb(64, 50, 183);
+}
+
+
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

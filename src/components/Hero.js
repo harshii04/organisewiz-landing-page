@@ -21,7 +21,12 @@ const Hero = () => {
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <div>
-          <Image src={HeroImg} alt="Hero image" draggable={false} />
+          <Image
+            src={HeroImg}
+            alt="Hero image"
+            draggable={false}
+            className="select-none"
+          />
         </div>
         <div className="pt-8 md:pl-14">
           <div>
@@ -31,13 +36,15 @@ const Hero = () => {
                 className="-text--dark-purple"
                 weight="fill"
               />
-              <p className="font-medium md:text-sm text-xs -text--dark-purple">
+              <p className="font-medium md:text-sm text-xs -text--dark-purple select-none">
                 Figma Plugin
               </p>
             </div>
             <div className="flex gap-2 items-center pt-4">
-              <Image src={Logo} alt="Plugin icon" />
-              <h1 className="font-bold text-4xl text-white">Organise Wiz</h1>
+              <Image src={Logo} alt="Plugin icon" className="select-none" />
+              <h1 className="font-bold text-4xl text-white select-none">
+                Organise Wiz
+              </h1>
             </div>
           </div>
           <div className="flex flex-col gap-4 md:pr-24">
@@ -46,7 +53,7 @@ const Hero = () => {
                 weight="fill"
                 className="-text--highlight-purple w-6 h-6"
               />
-              <p className="font-medium text-base -text--text-purple">
+              <p className="font-medium text-base -text--text-purple select-none">
                 Effortlessly create, customise, and organise your Figma pages
                 like never before.
               </p>
@@ -57,7 +64,7 @@ const Hero = () => {
                 weight="fill"
                 className="-text--highlight-purple"
               />
-              <p className="font-medium text-base -text--text-purple">
+              <p className="font-medium text-base -text--text-purple select-none">
                 Get up and running in no time with our time-saving templates.
               </p>
             </div>
@@ -67,7 +74,7 @@ const Hero = () => {
                 weight="fill"
                 className="-text--highlight-purple"
               />
-              <p className="font-medium text-base -text--text-purple">
+              <p className="font-medium text-base -text--text-purple select-none">
                 Design without distractions, and focus on what you do best.
               </p>
             </div>
@@ -79,7 +86,7 @@ const Hero = () => {
                 className="group-hover:opacity-80"
                 weight="duotone"
               />
-              <p>Coming soon!</p>{" "}
+              <p className="select-none">Coming soon!</p>{" "}
             </div>
           </div>
         </div>
