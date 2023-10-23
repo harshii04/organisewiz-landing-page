@@ -73,13 +73,13 @@ const Hero = () => {
             </div>
           </div>
           <div className="pt-10">
-            <div className="group flex gap-2 -bg--primary-purple ring-[2px] ring-[#6139D1] border-t border-b border-white border-opacity-30 w-fit px-3 py-2 font-semibold text-base text-white hover:cursor-pointer rounded-full transition-all duration-300 ease-in-out hover:text-opacity-80">
+            <div className="group flex items-center justify-center gap-2 -bg--primary-purple ring-[2px] ring-[#6139D1] border-t border-b border-white border-opacity-30 md:w-fit px-3 py-2 font-semibold text-base text-white hover:cursor-not-allowed rounded-full transition-all duration-300 ease-in-out hover:text-opacity-80">
               <FigmaLogo
                 size={24}
                 className="group-hover:opacity-80"
                 weight="duotone"
               />
-              <p>Install now on Figma</p>{" "}
+              <p>Coming soon!</p>{" "}
             </div>
           </div>
         </div>
