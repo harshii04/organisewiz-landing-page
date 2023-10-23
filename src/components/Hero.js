@@ -1,7 +1,12 @@
 "use client";
 import Image from "next/image";
 import HeroImg from "../assets/HeroImg.svg";
-import { CheckCircle, FigmaLogo, PuzzlePiece } from "@phosphor-icons/react";
+import {
+  ArrowBendDownRight,
+  CheckCircle,
+  FigmaLogo,
+  PuzzlePiece,
+} from "@phosphor-icons/react";
 import Logo from "../assets/Logo.svg";
 import { motion } from "framer-motion";
 
@@ -37,10 +42,9 @@ const Hero = () => {
           </div>
           <div className="flex flex-col gap-4 md:pr-24">
             <div className="flex gap-3 pt-8">
-              <CheckCircle
-                size={24}
+              <ArrowBendDownRight
                 weight="fill"
-                className="-text--highlight-purple"
+                className="-text--highlight-purple w-6 h-6"
               />
               <p className="font-medium text-base -text--text-purple">
                 Effortlessly create, customise, and organise your Figma pages
@@ -48,30 +52,28 @@ const Hero = () => {
               </p>
             </div>
             <div className="flex gap-3">
-              <CheckCircle
-                size={24}
+              <ArrowBendDownRight
+                size={20}
                 weight="fill"
                 className="-text--highlight-purple"
               />
               <p className="font-medium text-base -text--text-purple">
-                Effortlessly create, customise, and organise your Figma pages
-                like never before.
+                Get up and running in no time with our time-saving templates.
               </p>
             </div>
             <div className="flex gap-3">
-              <CheckCircle
-                size={24}
+              <ArrowBendDownRight
+                size={20}
                 weight="fill"
                 className="-text--highlight-purple"
               />
               <p className="font-medium text-base -text--text-purple">
-                Effortlessly create, customise, and organise your Figma pages
-                like never before.
+                Design without distractions, and focus on what you do best.
               </p>
             </div>
           </div>
           <div className="pt-10">
-            <div className="group flex gap-2 -bg--primary-purple hover:-bg--btn-hover w-fit px-3 py-2 font-semibold text-base text-white hover:cursor-pointer rounded-full  transition-all duration-300 ease-in-out hover:text-opacity-80">
+            <div className="group flex gap-2 -bg--primary-purple ring-[2px] ring-[#6139D1] border-t border-b border-white border-opacity-30 w-fit px-3 py-2 font-semibold text-base text-white hover:cursor-pointer rounded-full transition-all duration-300 ease-in-out hover:text-opacity-80">
               <FigmaLogo
                 size={24}
                 className="group-hover:opacity-80"

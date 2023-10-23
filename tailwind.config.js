@@ -20,6 +20,9 @@ module.exports = {
         "--primary-purple": "rgba(139, 98, 255, 1)",
         "--icon-white": "rgba(255, 255, 255, 0.5)",
         "--btn-hover": "rgba(116, 79, 219, 1)",
+        "--btn-dark": "rgba(97,57,209,1)",
+        "gradient-white":
+          "linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.4))",
       },
     },
   },
