@@ -19,8 +19,9 @@ const Footer = () => {
             className="select-none"
             draggable={false}
           />
+
           <p className="font-medium text-xs -text--icon-white select-none">
-            Crafted by{" "}
+            Crafted with 🫶 by{" "}
             <Link
               className="hover:underline transition-all duration-300 ease-in-out"
               href="https://twitter.com/harshii04"

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import HeroImg from "../assets/HeroImg.svg";
 import {
   ArrowBendDownRight,
@@ -80,13 +81,18 @@ const Hero = () => {
             </div>
           </div>
           <div className="pt-10">
-            <div className="group flex items-center justify-center gap-2 -bg--primary-purple ring-[2px] ring-[#6139D1] border-t border-b border-white border-opacity-30 md:w-fit px-3 py-2 font-semibold text-base text-white hover:cursor-not-allowed rounded-full transition-all duration-300 ease-in-out hover:text-opacity-80">
+            <div className="group flex items-center justify-center gap-2 -bg--primary-purple ring-[2px] ring-[#6139D1] border-t border-b border-white border-opacity-30 md:w-fit px-3 py-2 font-medium text-base text-white hover:cursor rounded-full transition-all duration-300 ease-in-out hover:text-opacity-80">
               <FigmaLogo
                 size={24}
                 className="group-hover:opacity-80"
                 weight="duotone"
               />
-              <p className="select-none">Coming soon!</p>{" "}
+              <Link
+                target="_blank"
+                href="https://www.figma.com/community/plugin/1297987709393646630/organize-wiz"
+              >
+                <p className="select-none">Try now on Figma</p>{" "}
+              </Link>
             </div>
           </div>
         </div>
